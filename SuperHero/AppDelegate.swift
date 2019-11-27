@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SuperHero
 //
-//  Created by Gerson Padilla Ramos on 11/26/19.
+//  Created by Marcelo Ríos on 11/26/19.
 //  Copyright © 2019 UPC. All rights reserved.
 //
 

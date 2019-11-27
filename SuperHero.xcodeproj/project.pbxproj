@@ -14,6 +14,14 @@
 		57AFB585238E118F00B417A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57AFB584238E118F00B417A3 /* Assets.xcassets */; };
 		57AFB588238E118F00B417A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57AFB587238E118F00B417A3 /* Preview Assets.xcassets */; };
 		57AFB58B238E118F00B417A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AFB589238E118F00B417A3 /* LaunchScreen.storyboard */; };
+		57AFB593238E1A3800B417A3 /* SuperHeroItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFB592238E1A3800B417A3 /* SuperHeroItem.swift */; };
+		57AFB595238E1F4400B417A3 /* SuperHeroItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFB594238E1F4400B417A3 /* SuperHeroItemView.swift */; };
+		57AFB597238E286F00B417A3 /* AboutSuperHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFB596238E286F00B417A3 /* AboutSuperHeroView.swift */; };
+		57AFB599238E28F000B417A3 /* SuperHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFB598238E28F000B417A3 /* SuperHeroViewModel.swift */; };
+		57AFB59B238E298600B417A3 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFB59A238E298600B417A3 /* SuperHero.swift */; };
+		57AFB5A1238E46F000B417A3 /* SuperHeroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFB5A0238E46EF00B417A3 /* SuperHeroService.swift */; };
+		57AFB5A3238E4A1F00B417A3 /* AddNewSuperHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFB5A2238E4A1F00B417A3 /* AddNewSuperHeroView.swift */; };
+		57AFB5A5238E4D3000B417A3 /* SuperHeroSelectedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFB5A4238E4D3000B417A3 /* SuperHeroSelectedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		57AFB587238E118F00B417A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57AFB58A238E118F00B417A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57AFB58C238E118F00B417A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57AFB592238E1A3800B417A3 /* SuperHeroItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroItem.swift; sourceTree = "<group>"; };
+		57AFB594238E1F4400B417A3 /* SuperHeroItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroItemView.swift; sourceTree = "<group>"; };
+		57AFB596238E286F00B417A3 /* AboutSuperHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSuperHeroView.swift; sourceTree = "<group>"; };
+		57AFB598238E28F000B417A3 /* SuperHeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewModel.swift; sourceTree = "<group>"; };
+		57AFB59A238E298600B417A3 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		57AFB5A0238E46EF00B417A3 /* SuperHeroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroService.swift; sourceTree = "<group>"; };
+		57AFB5A2238E4A1F00B417A3 /* AddNewSuperHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewSuperHeroView.swift; sourceTree = "<group>"; };
+		57AFB5A4238E4D3000B417A3 /* SuperHeroSelectedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroSelectedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +74,14 @@
 		57AFB57A238E118E00B417A3 /* SuperHero */ = {
 			isa = PBXGroup;
 			children = (
-				57AFB57B238E118E00B417A3 /* AppDelegate.swift */,
+				57AFB59F238E46D400B417A3 /* Services */,
+				57AFB59E238E454A00B417A3 /* Models */,
+				57AFB59D238E452100B417A3 /* ViewModels */,
+				57AFB59C238E44FC00B417A3 /* Views */,
 				57AFB57D238E118E00B417A3 /* SceneDelegate.swift */,
-				57AFB582238E118E00B417A3 /* ContentView.swift */,
 				57AFB584238E118F00B417A3 /* Assets.xcassets */,
 				57AFB589238E118F00B417A3 /* LaunchScreen.storyboard */,
+				57AFB57B238E118E00B417A3 /* AppDelegate.swift */,
 				57AFB58C238E118F00B417A3 /* Info.plist */,
 				57AFB57F238E118E00B417A3 /* SuperHero.xcdatamodeld */,
 				57AFB586238E118F00B417A3 /* Preview Content */,
@@ -76,6 +95,43 @@
 				57AFB587238E118F00B417A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57AFB59C238E44FC00B417A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57AFB594238E1F4400B417A3 /* SuperHeroItemView.swift */,
+				57AFB596238E286F00B417A3 /* AboutSuperHeroView.swift */,
+				57AFB582238E118E00B417A3 /* ContentView.swift */,
+				57AFB5A2238E4A1F00B417A3 /* AddNewSuperHeroView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57AFB59D238E452100B417A3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				57AFB598238E28F000B417A3 /* SuperHeroViewModel.swift */,
+				57AFB5A4238E4D3000B417A3 /* SuperHeroSelectedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		57AFB59E238E454A00B417A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57AFB592238E1A3800B417A3 /* SuperHeroItem.swift */,
+				57AFB59A238E298600B417A3 /* SuperHero.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57AFB59F238E46D400B417A3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				57AFB5A0238E46EF00B417A3 /* SuperHeroService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57AFB593238E1A3800B417A3 /* SuperHeroItem.swift in Sources */,
+				57AFB595238E1F4400B417A3 /* SuperHeroItemView.swift in Sources */,
 				57AFB57C238E118E00B417A3 /* AppDelegate.swift in Sources */,
+				57AFB5A3238E4A1F00B417A3 /* AddNewSuperHeroView.swift in Sources */,
+				57AFB5A1238E46F000B417A3 /* SuperHeroService.swift in Sources */,
 				57AFB57E238E118E00B417A3 /* SceneDelegate.swift in Sources */,
+				57AFB599238E28F000B417A3 /* SuperHeroViewModel.swift in Sources */,
+				57AFB59B238E298600B417A3 /* SuperHero.swift in Sources */,
 				57AFB583238E118E00B417A3 /* ContentView.swift in Sources */,
 				57AFB581238E118E00B417A3 /* SuperHero.xcdatamodeld in Sources */,
+				57AFB5A5238E4D3000B417A3 /* SuperHeroSelectedViewModel.swift in Sources */,
+				57AFB597238E286F00B417A3 /* AboutSuperHeroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
